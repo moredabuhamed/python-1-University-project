@@ -69,5 +69,3 @@ print(i + ' F1 score: %f' % f1)
 matrix = confusion_matrix(y_test, y_pre)
 print(matrix)
 
-from google.colab import drive
-drive.mount('/content/drive')
